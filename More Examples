@@ -1,0 +1,113 @@
+practice.css
+
+body {
+  background: rgb(220, 220, 230);
+}
+
+nav.main ul {
+  background-color: rgb(0, 0, 0);
+}
+
+nav.main li {
+  display: inline-block;
+}
+
+nav.main li a {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+nav.main li a:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+header.landingtext {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "trebuchet ms", sans-serif;
+  text-align: center;
+}
+
+p.text {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "trebuchet ms", sans-serif;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+
+}
+figure figcaption {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+}
+
+
+practice1.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Practice 1</title>
+    <link rel="stylesheet" href="practice.css">
+
+  </head>
+  <body>
+    <!--Landing-->
+    <section id="landing">
+      <header class="landingtext">
+        <h1>Practice Website</h1>
+      </header>
+    </section>
+    <nav class="main">
+      <ul class="main-nav">
+        <li><a href="practice1.html">Practice 1</a></li>
+        <li><a href="practice2.html">Practice 2</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="https://cdn.pixabay.com/photo/2013/04/06/11/50/image-editing-101040_960_720.jpgs" alt="Sheep">
+    </figure>
+
+  </body>
+</html>
+
+
+practice2.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Practice 2</title>
+    <link rel="stylesheet" href="practice.css">
+
+  </head>
+  <body>
+    <!--Landing-->
+    <section id="landing">
+      <header class="landingtext">
+        <h1>Practice Website</h1>
+      </header>
+    </section>
+    <nav class="main">
+      <ul class="main-nav">
+        <li><a href="practice1.html">Practice 1</a></li>
+        <li><a href="practice2.html">Practice 2</a></li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Schrecklicherpfeilgiftfrosch-01.jpg/220px-Schrecklicherpfeilgiftfrosch-01.jpg" alt="Frog">
+    </figure>
+
+  </body>
+</html>
